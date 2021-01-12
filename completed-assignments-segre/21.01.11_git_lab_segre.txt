@@ -1,0 +1,29 @@
+git clone https://github.com/alliesegre/lab-bash.git
+
+$ ls
+$ cd lab-bash
+$ mkdir new_dir
+$ echo Hello World
+$ rm -r new_dir
+$ cp lorem.txt ~/lab-bash/lorem-copy
+$ cp sed.txt ~/lab-bash/lorem-copy; cp at.txt ~/lab-bash/lorem-copy
+$ cat sed.txt
+$ cat {at,lorem}.txt
+$ head -3 sed.txt
+$ tail -3 sed.txt
+$ echo "Homo Homini Lupus" >> sed.txt
+$ tail -3 sed.txt
+$ cat at.txt
+$ sed -i -r 's/ET/et/g' at.txt
+$ it config --global --get user.name
+$ pwd
+$ ls *.txt
+$ cat sed.txt | wc -l
+$ ls -dq *lorem* | wc -l
+
+
+
+
+
+
+
